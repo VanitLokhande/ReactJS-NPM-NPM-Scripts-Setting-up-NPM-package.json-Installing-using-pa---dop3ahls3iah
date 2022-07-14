@@ -5,7 +5,7 @@ function App() {
   const [change, setchange] = useState(false);
 
   const handlechange = () => {
-    setchange(true);
+    setchange(!change);
   };
   return (
     <div id="main">
