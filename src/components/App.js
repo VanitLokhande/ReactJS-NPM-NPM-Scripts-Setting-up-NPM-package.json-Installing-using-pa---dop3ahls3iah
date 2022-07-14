@@ -9,8 +9,8 @@ function App() {
   };
   return (
     <div id="main">
-      <button id="click " onClick={handlechange}>
-        click{" "}
+      <button id="click" onClick={handlechange}>
+        click
       </button>
       {change && (
         <p id="para">
